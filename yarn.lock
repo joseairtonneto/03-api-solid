@@ -16,6 +16,7 @@ __metadata:
     "@vitest/coverage-v8": 0.34.3
     "@vitest/ui": 0.34.3
     bcryptjs: 2.4.3
+    dayjs: 1.11.9
     dotenv: 16.0.3
     eslint: 8.39.0
     fastify: 4.15.0
@@ -1600,6 +1601,13 @@ __metadata:
   version: 1.0.8
   resolution: "damerau-levenshtein@npm:1.0.8"
   checksum: d240b7757544460ae0586a341a53110ab0a61126570ef2d8c731e3eab3f0cb6e488e2609e6a69b46727635de49be20b071688698744417ff1b6c1d7ccd03e0de
+  languageName: node
+  linkType: hard
+
+"dayjs@npm:1.11.9":
+  version: 1.11.9
+  resolution: "dayjs@npm:1.11.9"
+  checksum: a4844d83dc87f921348bb9b1b93af851c51e6f71fa259604809cfe1b49d1230e6b0212dab44d1cb01994c096ad3a77ea1cf18fa55154da6efcc9d3610526ac38
   languageName: node
   linkType: hard
 
