@@ -1,4 +1,22 @@
 {
   "name": "03-api-solid",
-  "packageManager": "yarn@4.9.1"
+  "packageManager": "yarn@4.9.1",
+  "scripts": {
+    "start:dev": "tsx watch src/server.ts",
+    "start": "node build/server.js",
+    "build": "tsup src --out-dir build"
+  },
+  "devDependencies": {
+    "@rocketseat/eslint-config": "2.2.2",
+    "@types/node": "22.15.18",
+    "eslint": "9.26.0",
+    "tsup": "8.4.0",
+    "tsx": "4.19.4",
+    "typescript": "5.8.3"
+  },
+  "dependencies": {
+    "dotenv": "16.5.0",
+    "fastify": "5.3.3",
+    "zod": "3.24.4"
+  }
 }
