@@ -18,6 +18,7 @@ node_modules
 
 #Development
 .vscode
+coverage
 
 #Environment
 .env
