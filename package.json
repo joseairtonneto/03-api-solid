@@ -1,6 +1,5 @@
 {
   "name": "03-api-solid",
-  "packageManager": "yarn@4.9.1",
   "type": "module",
   "scripts": {
     "start:dev": "tsx watch src/server.ts",
