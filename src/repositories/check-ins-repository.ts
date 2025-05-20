@@ -1,7 +1,7 @@
 import { Prisma, CheckIn } from '@prisma/client'
 
 export interface CheckInsRepository {
-  save(checkIn: CheckIn): Promise<CheckIn>
+  save(data: CheckIn): Promise<CheckIn>
   findById(id: string): Promise<CheckIn | null>
   countByUserId(userId: string): Promise<number>
   findManyByUserId(userId: string, page: number): Promise<CheckIn[]>
